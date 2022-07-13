@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>p5.js example</title>
+  <style>
+    .inline{
+      display: inline;
+    }
+    body {
+      padding: 0;
+      margin: 0;
+    }
+  </style>
+  
+</head>
+
+<body>
+  <noBr><input class="inline" type="range" min="1" max="625" value="20" id="slider" oninput="slider()">
+  <p class="inline" id="slidervalue"></p></noBr>
+  <script src="../p5.js"></script>
+  <!-- <script src="../addons/p5.sound.js"></script> -->
+  <!-- 
+    <script src="./ccapture/webm-writer-0.2.0.js"></script>
+    <script src="./ccapture/CCapture.js"></script>
+    
+    <script src="./ccapture/download.js"></script>
+    <script>
+    var capturer = new CCapture({
+      format:'webm',
+      framerate:60,
+      verbose:true,
+    })
+    </script> -->
+  <script src="drawing.js"></script>
+  <script src="fourier.js"></script>
+  <script src="sketch.js"></script>
+  <!-- <script src="./webeditor_sketches/perlin.js"></script>
+ --></body>
+
+</html>

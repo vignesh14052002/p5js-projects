@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>p5.js example</title>
+  <style>
+    .inline{
+      display: inline;
+    }
+    body {
+      padding: 0;
+      margin: 0;
+    }
+  </style>
+</head>
+
+<body>
+  
+<h3 class="inline">ball size </h3>
+ <input class="inline" type="range" min="1" max="100" value="20" id="size" oninput="aa.fsize()">
+<h3 class="inline" id="sizetext">20 </h3>
+<br>
+<h3 class="inline"> ball speed </h3>
+ <input class="inline" type="range" min="1" max="100" value="20" id="speed" oninput="aa.speed()">
+<h3 class="inline" id="speedtext">20</h3>
+
+<div id="sketch-container"></div>
+<script src="../../p5.js"></script>
+<!-- <script type="text/javascript">
+  let img;
+function preload() {
+  img = loadImage('../../images/temp/art.JPG');
+}
+
+</script> -->
+  <!-- <script src="../addons/p5.sound.js"></script> -->
+  <script src="sketch.js"></script>
+</body>
+
+</html>
